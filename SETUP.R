@@ -3,8 +3,8 @@
 
 # 1.1 - If project is within a OneDrive folder, run the below and restart rstudio
 # Replace path with somewhere you want packages to be stored
-library(usethis)
-edit_r_environ()
+# library(usethis)
+# edit_r_environ()
 # RENV_PATHS_LIBRARY_ROOT=C:/Users/Bencooper/renv
 
 # 2 - Install packages
