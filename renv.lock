@@ -135,8 +135,14 @@
     "cmdstanr": {
       "Package": "cmdstanr",
       "Version": "0.5.3",
-      "Source": "unknown",
-      "Hash": "c91c8643a5d25fb7aebb1e8031f6cdca",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "cmdstanr",
+      "RemoteUsername": "stan-dev",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "03d568bac96a7e544f8cb0a0efa20010db9d451f",
+      "Hash": "ae3127a1705afb8f264cd883847032e3",
       "Requirements": [
         "R6",
         "checkmate",
@@ -568,10 +574,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.8.0",
+      "Version": "1.8.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f95cf85794546c4ac2b9a6ca42e671ff",
+      "Hash": "f2316df30902c81729ae9de95ad5a608",
       "Requirements": [
         "cli",
         "fansi",

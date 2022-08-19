@@ -9,7 +9,7 @@ edit_r_environ()
 
 # 2 - Install packages
 renv::restore()
-install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
+# install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
 
 # 3 - Install cmdstan
 library(cmdstanr)
@@ -18,8 +18,8 @@ install_cmdstan()
 # write('RTOOLS40_HOME="C:\\rtools40"', file = "~/.Renviron", append = TRUE)
 
 # 3.1 - If doing manual workaround (https://discourse.mc-stan.org/t/error-in-building-cmdstanr-on-windows-10/17886/42)
-set_cmdstan_path("C:/Users/Bencooper/Documents/.cmdstan/cmdstan-2.30.1/cmdstan-2.30.1")
-cmdstan_version()
+# set_cmdstan_path("C:/Users/Bencooper/Documents/.cmdstan/cmdstan-2.30.1/cmdstan-2.30.1")
+# cmdstan_version()
 
 # 4 - Test cmdstanr
 file <- file.path(cmdstan_path(), "examples", "bernoulli", "bernoulli.stan")
